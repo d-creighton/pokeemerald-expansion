@@ -1,4 +1,4 @@
-.set LOCALID_RIVAL, 1
+raw `.set LOCALID_RIVAL, 1
 
 LittlerootTown_BrendansHouse_2F_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, LittlerootTown_BrendansHouse_2F_OnTransition
@@ -302,15 +302,11 @@ PlayersHouse_2F_Text_ItsAGameCube:
 	.string "It's a Nintendo GameCube.\p"
 	.string "A Game Boy Advance is connected to\n"
 	.string "serve as the Controller.$"
-
-LittlerootTown_EventScript_GiveRayquaza::
-	lockall
-	msgbox LittlerootTown_EventScript_GiveRayquaza_Text_0
-	givemon SPECIES_RAYQUAZA, 100
-	waitmessage
-	releaseall
-	return
-
-
-LittlerootTown_EventScript_GiveRayquaza_Text_0:
-	.string "Receiving Rayquza Lvl 100$"
+`
+script LittlerootTown_EventScript_GiveRayquaza {
+    lockall
+    msgbox("Receiving Rayquza Lvl 100")
+    givemon(SPECIES_RAYQUAZA, 100)
+    waitmessage
+    releaseall
+}
