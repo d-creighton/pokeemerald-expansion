@@ -538,6 +538,7 @@ static const u16 sGroudonFormSpeciesIdTable[] = {
 static const u16 sRayquazaFormSpeciesIdTable[] = {
     SPECIES_RAYQUAZA,
     SPECIES_RAYQUAZA_MEGA,
+    SPECIES_DSRAYQUAZA,
     FORM_SPECIES_END,
 };
 
