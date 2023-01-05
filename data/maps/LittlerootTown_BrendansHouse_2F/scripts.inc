@@ -306,7 +306,7 @@ PlayersHouse_2F_Text_ItsAGameCube:
 LittlerootTown_EventScript_GiveRayquaza::
 	lockall
 	msgbox LittlerootTown_EventScript_GiveRayquaza_Text_0
-	givemon SPECIES_RAYQUAZA, 100
+	givemon SPECIES_DSRAYQUAZA, 100
 	waitmessage
 	releaseall
 	return

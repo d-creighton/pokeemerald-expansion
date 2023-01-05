@@ -997,6 +997,8 @@ extern const u32 gMonFrontPic_Ursaluna[];
 extern const u32 gMonFrontPic_Overqwil[];
 //extern const u32 gMonFrontPic_Enamorus[];
 #endif
+extern const u32 gMonFrontPic_dsRayquaza[];
+
 extern const u32 gMonFrontPic_VenusaurMega[];
 extern const u32 gMonFrontPic_CharizardMegaX[];
 extern const u32 gMonFrontPic_CharizardMegaY[];
@@ -2213,6 +2215,8 @@ extern const u32 gMonBackPic_Ursaluna[];
 extern const u32 gMonBackPic_Overqwil[];
 //extern const u32 gMonBackPic_Enamorus[];
 #endif
+extern const u32 gMonBackPic_dsRayquaza[];
+
 extern const u32 gMonBackPic_VenusaurMega[];
 extern const u32 gMonBackPic_CharizardMegaX[];
 extern const u32 gMonBackPic_CharizardMegaY[];
@@ -3419,6 +3423,8 @@ extern const u32 gMonPalette_Ursaluna[];
 extern const u32 gMonPalette_Overqwil[];
 //extern const u32 gMonPalette_Enamorus[];
 #endif
+extern const u32 gMonPalette_dsRayquaza[];
+
 extern const u32 gMonPalette_VenusaurMega[];
 extern const u32 gMonPalette_CharizardMegaX[];
 extern const u32 gMonPalette_CharizardMegaY[];
@@ -4653,6 +4659,8 @@ extern const u32 gMonShinyPalette_Ursaluna[];
 extern const u32 gMonShinyPalette_Overqwil[];
 //extern const u32 gMonShinyPalette_Enamorus[];
 #endif
+extern const u32 gMonShinyPalette_dsRayquaza[];
+
 extern const u32 gMonShinyPalette_VenusaurMega[];
 extern const u32 gMonShinyPalette_CharizardMegaX[];
 extern const u32 gMonShinyPalette_CharizardMegaY[];
@@ -5876,6 +5884,8 @@ extern const u8 gMonIcon_Sneasler[];
 extern const u8 gMonIcon_Overqwil[];
 extern const u8 gMonIcon_Enamorus[];
 #endif
+extern const u8 gMonIcon_dsRayquaza[];
+
 extern const u8 gMonIcon_VenusaurMega[];
 extern const u8 gMonIcon_CharizardMegaX[];
 extern const u8 gMonIcon_CharizardMegaY[];
@@ -7087,6 +7097,7 @@ extern const u8 gMonFootprint_Calyrex[];
 //extern const u8 gMonFootprint_Sneasler[];
 //extern const u8 gMonFootprint_Overqwil[];
 //extern const u8 gMonFootprint_Enamorus[];
+//extern const u8 gMonFootprint_dsRayquaza[];
 #endif
 
 // trainer sprites

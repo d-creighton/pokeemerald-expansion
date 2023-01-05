@@ -942,6 +942,8 @@ const u8 *const gMonIconTable[] =
     [SPECIES_OVERQWIL] = gMonIcon_Overqwil,
     [SPECIES_ENAMORUS] = gMonIcon_Enamorus,
 #endif
+    [SPECIES_DSRAYQUAZA] = gMonIcon_dsRayquaza,
+
     [SPECIES_VENUSAUR_MEGA] = gMonIcon_VenusaurMega,
     [SPECIES_CHARIZARD_MEGA_X] = gMonIcon_CharizardMegaX,
     [SPECIES_CHARIZARD_MEGA_Y] = gMonIcon_CharizardMegaY,
@@ -2232,6 +2234,7 @@ const u8 gMonIconPaletteIndices[] =
     [SPECIES_SNEASLER] = 2,
     [SPECIES_OVERQWIL] = 2,
     [SPECIES_ENAMORUS] = 1,
+    [SPECIES_DSRAYQUAZA] = 1,
     [SPECIES_VENUSAUR_MEGA] = 1,
     [SPECIES_CHARIZARD_MEGA_X] = 0,
     [SPECIES_CHARIZARD_MEGA_Y] = 0,

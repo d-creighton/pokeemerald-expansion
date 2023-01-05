@@ -9513,7 +9513,27 @@ static const union AnimCmd sAnim_ENAMORUS_1[] =
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
+
 #endif
+
+static const union AnimCmd sAnim_DSRAYQUAZA_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_FRAME(1, 8),
+    ANIMCMD_FRAME(0, 22),
+    ANIMCMD_FRAME(1, 6),
+    ANIMCMD_FRAME(0, 6),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_DSRAYQUAZA_2[] =
+{
+    ANIMCMD_FRAME(0, 20),
+    ANIMCMD_FRAME(2, 20),
+    ANIMCMD_FRAME(0, 20),
+    ANIMCMD_FRAME(2, 20),
+    ANIMCMD_END,
+};
 
 static const union AnimCmd sAnim_VENUSAUR_MEGA_1[] =
 {
@@ -16237,7 +16257,15 @@ static const union AnimCmd *const sAnims_ENAMORUS[] =
     sAnim_GeneralFrame0,
     sAnim_ENAMORUS_1,
 };
+
 #endif
+
+static const union AnimCmd *const sAnims_DSRAYQUAZA[] =
+{
+    sAnim_GeneralFrame0,
+    sAnim_DSRAYQUAZA_1,
+    sAnim_DSRAYQUAZA_2,
+};
 
 static const union AnimCmd *const sAnims_VENUSAUR_MEGA[] =
 {
@@ -18050,6 +18078,8 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(OVERQWIL),
     ANIM_CMD(ENAMORUS),
 #endif
+    ANIM_CMD(DSRAYQUAZA),
+
     ANIM_CMD(VENUSAUR_MEGA),
     ANIM_CMD(CHARIZARD_MEGA_X),
     ANIM_CMD(CHARIZARD_MEGA_Y),

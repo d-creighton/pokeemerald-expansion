@@ -306,7 +306,7 @@ PlayersHouse_2F_Text_ItsAGameCube:
 script LittlerootTown_EventScript_GiveRayquaza {
     lockall
     msgbox("Receiving Rayquza Lvl 100")
-    givemon(SPECIES_RAYQUAZA, 100)
+    givemon(SPECIES_DSRAYQUAZA, 100)
     waitmessage
     releaseall
 }

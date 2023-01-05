@@ -1439,6 +1439,8 @@ gCryTable::
 	cry Cry_Unown
 	cry Cry_Unown
 .endif
+	@ Delta Species
+	cry Cry_Rayquaza
 	@ Megas
 	cry Cry_VenusaurMega
 	cry Cry_CharizardMegaX
@@ -3560,6 +3562,8 @@ gCryTable_Reverse::
 	cry_reverse Cry_Unown
 	cry_reverse Cry_Unown
 .endif
+	@ Delta Species
+	cry_reverse Cry_Rayquaza
 	@ Megas
 	cry_reverse Cry_VenusaurMega
 	cry_reverse Cry_CharizardMegaX

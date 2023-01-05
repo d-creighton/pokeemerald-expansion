@@ -909,6 +909,32 @@
         .flags = SPECIES_FLAG_MYTHICAL,                 \
     }
 
+#define RAYQUAZA_BASE_STATS(type1, type2)               \
+    {                                                   \
+        .baseHP        = 105,                           \
+        .baseAttack    = 150,                           \
+        .baseDefense   = 90,                            \
+        .baseSpeed     = 95,                            \
+        .baseSpAttack  = 150,                           \
+        .baseSpDefense = 90,                            \
+        .type1 = type1,                                 \
+        .type2 = type2,                                 \
+        .catchRate = 45,                                \
+        .expYield = 306,                                \
+        .evYield_Attack    = 2,                         \
+        .evYield_SpAttack  = 1,                         \
+        .genderRatio = MON_GENDERLESS,                  \
+        .eggCycles = 120,                               \
+        .friendship = 0,                                \
+        .growthRate = GROWTH_SLOW,                      \
+        .eggGroup1 = EGG_GROUP_UNDISCOVERED,            \
+        .eggGroup2 = EGG_GROUP_UNDISCOVERED,            \
+        .abilities = {ABILITY_AIR_LOCK, ABILITY_NONE},  \
+        .bodyColor = BODY_COLOR_GREEN,                  \
+        .noFlip = FALSE,                                \
+        .flags = SPECIES_FLAG_LEGENDARY,                \
+    }
+
 const struct BaseStats gBaseStats[] =
 {
     [SPECIES_NONE] = {0},
@@ -22863,6 +22889,8 @@ const struct BaseStats gBaseStats[] =
         .flags = SPECIES_FLAG_LEGENDARY,
     },
 #endif
+
+    [SPECIES_DSRAYQUAZA] = RAYQUAZA_BASE_STATS(TYPE_ELECTRIC, TYPE_STEEL),
 
     [SPECIES_VENUSAUR_MEGA] =
     {

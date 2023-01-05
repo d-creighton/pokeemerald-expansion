@@ -1255,6 +1255,9 @@ static const u16 sSpeciesToNationalPokedexNum[NUM_SPECIES - 1] =
     SPECIES_TO_NATIONAL(ENAMORUS),
 #endif
 
+    // Delta Species
+    [SPECIES_DSRAYQUAZA - 1] = NATIONAL_DEX_RAYQUAZA,
+
     // Megas
     [SPECIES_VENUSAUR_MEGA - 1] = NATIONAL_DEX_VENUSAUR,
     [SPECIES_CHARIZARD_MEGA_X - 1] = NATIONAL_DEX_CHARIZARD,
@@ -2885,6 +2888,7 @@ static const u8 sMonFrontAnimIdsTable[NUM_SPECIES - 1] =
     [SPECIES_DEOXYS_ATTACK - 1]          = ANIM_GROW_VIBRATE,
     [SPECIES_DEOXYS_DEFENSE - 1]         = ANIM_GROW_VIBRATE,
     [SPECIES_DEOXYS_SPEED - 1]           = ANIM_GROW_VIBRATE,
+    //[SPECIES_DSRAYQUAZA - 1]      = ANIM_H_SHAKE,
 
     //Gen 4 Forms
     [SPECIES_BURMY_SANDY_CLOAK - 1]      = ANIM_V_STRETCH,
@@ -3097,6 +3101,7 @@ static const u8 sMonAnimationDelayTable[NUM_SPECIES - 1] =
     [SPECIES_SALAMENCE - 1]  = 70,
     [SPECIES_KYOGRE - 1]     = 60,
     [SPECIES_RAYQUAZA - 1]   = 60,
+    //[SPECIES_DSRAYQUAZA - 1]   = 60,
 #if P_GEN_7_POKEMON == TRUE
     [SPECIES_TAPU_FINI - 1]  = 5,
 #endif

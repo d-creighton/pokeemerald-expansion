@@ -917,6 +917,8 @@ const struct CompressedSpriteSheet gMonBackPicTable[] =
     SPECIES_SPRITE(ENAMORUS, gMonBackPic_CircledQuestionMark), //gMonBackPic_Enamorus),
 #endif
 
+    SPECIES_SPRITE(DSRAYQUAZA, gMonBackPic_dsRayquaza),
+
     SPECIES_SPRITE(VENUSAUR_MEGA, gMonBackPic_VenusaurMega),
     SPECIES_SPRITE(CHARIZARD_MEGA_X, gMonBackPic_CharizardMegaX),
     SPECIES_SPRITE(CHARIZARD_MEGA_Y, gMonBackPic_CharizardMegaY),

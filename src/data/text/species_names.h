@@ -916,6 +916,9 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_ENAMORUS] = _("Enamorus"),
 #endif
 
+    // Delta Species
+    [SPECIES_DSRAYQUAZA] = _("Rayquaza D"),
+
     // Megas
     [SPECIES_VENUSAUR_MEGA] = _("Venusaur"),
     [SPECIES_CHARIZARD_MEGA_X] = _("Charizard"),
